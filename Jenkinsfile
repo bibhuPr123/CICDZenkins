@@ -14,6 +14,7 @@ pipeline{
 		stage('three'){
 			steps{
 				input('Do you want to proceed?')
+				echo 'Hi,  hello world from zenkins : step3'
 			}
 		}
 		stage('four'){
